@@ -27,11 +27,6 @@ h2 {
     font-family: 'Bebas Neue', cursive;
 }
 
-#gatinhos {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 div#criadores p {
     margin: 0 auto;
     width: 70%;
@@ -112,4 +107,28 @@ li::selection {
 
 .posi {
     padding-top: 500px;
+}
+
+@media screen and (max-width:1511px) {
+    #fabiana {
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width:1207px) {
+    #flavia {
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width:909px) {
+    #luan {
+        padding-top: 500px;
+    }
+}
+
+@media screen and (max-width:609px) {
+    #isa {
+        padding-top: 500px;
+    }
 }
